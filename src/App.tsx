@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import WorkersList from './pages/WorkersList';
 import WorkerProfile from './pages/WorkerProfile';
 import Bookings from './pages/Bookings';
+import RegistrationForm from './pages/RegistrationForm';
+import UserRegistration from './pages/UserRegistration';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Route path="/workers" element={<WorkersList />} />
             <Route path="/worker/:id" element={<WorkerProfile />} />
             <Route path="/bookings" element={<Bookings />} />
+            <Route path="/register" element={<RegistrationForm />} />
+            <Route path="/registeruser" element={<UserRegistration />} />
           </Routes>
         </main>
       </div>
